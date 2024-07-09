@@ -22,7 +22,7 @@ const Component = () => {
     <h1 className="text-[1.6rem] font-bold">{session.user.name}</h1>
       <h1 className="text-[aquamarine]">Signed in as {session.user.email}</h1><br/>
       <button onClick={() => signOut()} className="font-semibold border-gray-400 border-[0.1rem] p-[0.5rem] rounded-xl hover:bg-white hover:text-black">Sign out</button>
-      {visible && <h1 className="my-[1rem] font-semibold text-[2.5rem] text-[#e100ffda]">🎊🎉🎊 Congratulations you have signed in Successfully 🎊🎉🎊</h1>}
+      {visible && <h1 className="my-[1rem] font-semibold text-[2.5rem] text-[#e100ffda] max-[430px]:text-[1rem] text-center">🎊🎉🎊 Congratulations you have signed in Successfully 🎊🎉🎊</h1>}
     </div>
     </>
   }
