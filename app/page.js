@@ -37,6 +37,7 @@ export default function Home() {
     <div className='text-white h-[100vh]'>
     <div className='context'>
       <div className="area flex -z-10 absolute">
+
       <ul className="circles">
               <li></li>
               <li></li>
